@@ -4,97 +4,59 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Blog de Vero</title>
+        <title>Videos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <img src = "/musica.png" alt="" width="900" height="50"></img>
+      <img src = "/videos.png" alt="" width="1500" height="100"></img>
 
       <main>
         <h1 className="title">
-          El Blog de Vero: artistas favoritos
+          VIDEOS
         </h1>
         <p className="description">
         </p> 
         
         <div className="grid">
-          <a href="/lorde" className="card">
-            <img src = "/lorde1.png" alt="" width="1500" height="100"></img>
-            <h3>Lorde &rarr;</h3>
-            <p>Información y galería</p>
+         <a href="/https://youtu.be/Dpq_g8zLQPc" className="card">
+           <img src = "/videomac.png" alt="" width="1500" height="100"></img>
+            <h3>Mac de Marco: Lollapalooza 2018 &rarr;</h3>
           </a>
 
-         <a href="/thestrokes" className="card">
-            <img src = "thestrokes1.png" alt="" width="1500" height="100"></img>
-            <h3>The Strokes &rarr;</h3>
-            <p>Información y galería</p>
+          <a href="https://youtu.be/toklNeEB9To" className="card">
+            <h3>Lorde: corona capital 2018: https://youtu.be/toklNeEB9To&rarr;</h3>
+            <img src = "/videolorde.png" alt="" width="1500" height="100"></img>
+          </a>
+          <a
+            href="https://youtu.be/RjQZd8p-eBM"
+            className="card"
+          >
+            <h3>Radiohead  &rarr;</h3>
+            <p>live</p>
+            <img src = "/videoradio.png" alt="" width="1500" height="100"></img>
           </a>
 
           <a
-            href="/phoebe"
+            href="https://youtu.be/2bOigld3D1k"
             className="card"
           >
-         <a href="/phoebe" className="card"></a>
-            <img src = "/pb1.png" alt="" width="1500" height="100"></img>
-            <h3>Phoebe Bridgers &rarr;</h3>
-            <p>Información y galería</p>
-          </a>
+            <h3> &rarr;</h3>
 
-         <a
-            href="/vampireweekend"
-            className="card"
-          >  
-          <a href="/vampireweekend" className="card"></a>
-            <h3>Vampire Weekend &rarr;</h3>
-            <img src = "/vw1.png" alt="" width="1500" height="100"></img>
-            <p>
-              Información y galería
-            </p>
-          </a>
 
-          <a href="/macdemarco" className="card">
-            <img src = "/mdm1.png" alt="" width="1500" height="100"></img>
-            <h3>Mac Demarco &rarr;</h3>
-            <p>Información y galería</p>
+            <p>  
+            </p>Phoebe Bridgers tiny desk, 2020
+            <img src = "/videophoebe.png" alt="" width="1500" height="100"></img>
           </a>
-
-         <a href="/radiohead" className="card">
-            <img src = "rh1.png" alt="" width="1500" height="100"></img>
-            <h3>Radiohead &rarr;</h3>
-            <p>Información y galería</p>
-          </a>
-
-          <a
-            href="/videos"
-            className="card"
-          >
-         <a href="/videos" className="card"></a>
-            <img src = "/videos.png" alt="" width="1500" height="100"></img>
-            <h3>Videos &rarr;</h3>
-            <p>click para ver</p>
-          </a>
-
-          <a
-            href="/playlist"
-            className="card"
-          >
-            <h3>canciones favoritas 2021 &rarr;</h3>
-            <img src = "/spotify.png" alt="" width="1500" height="100"></img>
-            <p>
-              playlist
-            </p>
-          </a>
-            
         </div>
       </main>
 
       <footer>
         <a
-          href=""
+          href="https://youtu.be/2bOigld3D1k"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          {' '}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
@@ -144,7 +106,7 @@ export default function Home() {
 
         .title a {
           color: #0070f3;
-          text-decoration: bold; italic;
+          text-decoration: none;
         }
 
         .title a:hover,
@@ -156,9 +118,7 @@ export default function Home() {
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 6rem;
-          color: #000080
-          font family: ['Merriweather', 'serif']
+          font-size: 4rem;
         }
 
         .title,

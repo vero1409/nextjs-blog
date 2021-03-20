@@ -4,87 +4,50 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Blog de Vero</title>
+        <title>The Strokes</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <img src = "/musica.png" alt="" width="900" height="50"></img>
+      <img src = "/ts1" alt="" width="1500" height="100"></img>
 
       <main>
         <h1 className="title">
-          El Blog de Vero: artistas favoritos
+          THE STROKES
         </h1>
         <p className="description">
         </p> 
         
         <div className="grid">
-          <a href="/lorde" className="card">
-            <img src = "/lorde1.png" alt="" width="1500" height="100"></img>
-            <h3>Lorde &rarr;</h3>
-            <p>Información y galería</p>
+          <a href="/thestrokes" className="card">
+            <img src = "/thestrokes4.png" alt="" width="1500" height="100"></img>
+            <h3> &rarr;</h3>
+            <p></p>
           </a>
 
-         <a href="/thestrokes" className="card">
-            <img src = "thestrokes1.png" alt="" width="1500" height="100"></img>
-            <h3>The Strokes &rarr;</h3>
-            <p>Información y galería</p>
+          <a href="thestrokes" className="card">
+            <img src = "/thestrokes2.png" alt="" width="1500" height="100"></img>
+            <h3>Album favorito &rarr;</h3>
+            <p>The New Abnormal (2020)</p>
           </a>
 
           <a
-            href="/phoebe"
+            href="spotify:album:2xkZV2Hl1Omi8rk2D7t5lN"
             className="card"
           >
-         <a href="/phoebe" className="card"></a>
-            <img src = "/pb1.png" alt="" width="1500" height="100"></img>
-            <h3>Phoebe Bridgers &rarr;</h3>
-            <p>Información y galería</p>
+            <h3>Spotify link&rarr;</h3>
+            <img src = "/thestrokes3.png" alt="" width="200" height="50"></img>
+            <p>https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V?si=bjsBpDmnTKWcd3CTwBNsnQ</p>
           </a>
 
-         <a
-            href="/vampireweekend"
+          <a
+            href="https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V?si=bjsBpDmnTKWcd3CTwBNsnQ"
             className="card"
-          >  
-          <a href="/vampireweekend" className="card"></a>
-            <h3>Vampire Weekend &rarr;</h3>
-            <img src = "/vw1.png" alt="" width="1500" height="100"></img>
+          >
+            <h3>género &rarr;</h3>
             <p>
-              Información y galería
+              indie rock, garage rock
             </p>
           </a>
-
-          <a href="/macdemarco" className="card">
-            <img src = "/mdm1.png" alt="" width="1500" height="100"></img>
-            <h3>Mac Demarco &rarr;</h3>
-            <p>Información y galería</p>
-          </a>
-
-         <a href="/radiohead" className="card">
-            <img src = "rh1.png" alt="" width="1500" height="100"></img>
-            <h3>Radiohead &rarr;</h3>
-            <p>Información y galería</p>
-          </a>
-
-          <a
-            href="/videos"
-            className="card"
-          >
-         <a href="/videos" className="card"></a>
-            <img src = "/videos.png" alt="" width="1500" height="100"></img>
-            <h3>Videos &rarr;</h3>
-            <p>click para ver</p>
-          </a>
-
-          <a
-            href="/playlist"
-            className="card"
-          >
-            <h3>canciones favoritas 2021 &rarr;</h3>
-            <img src = "/spotify.png" alt="" width="1500" height="100"></img>
-            <p>
-              playlist
-            </p>
-          </a>
-            
         </div>
       </main>
 
@@ -144,7 +107,7 @@ export default function Home() {
 
         .title a {
           color: #0070f3;
-          text-decoration: bold; italic;
+          text-decoration: bold;
         }
 
         .title a:hover,

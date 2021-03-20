@@ -4,93 +4,53 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Blog de Vero</title>
+        <title>playlist</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <img src = "/musica.png" alt="" width="900" height="50"></img>
+      <img src = "/spotify.png" alt="" width="1500" height="100"></img>
 
       <main>
         <h1 className="title">
-          El Blog de Vero: artistas favoritos
+          PLAYLIST
         </h1>
         <p className="description">
         </p> 
         
         <div className="grid">
-          <a href="/lorde" className="card">
-            <img src = "/lorde1.png" alt="" width="1500" height="100"></img>
-            <h3>Lorde &rarr;</h3>
-            <p>Información y galería</p>
+          <a href="/docs" className="card">
+          <img src = "/playlists.png" alt="" width="1500" height="100"></img>
+            <h3> &rarr;</h3>
           </a>
 
-         <a href="/thestrokes" className="card">
-            <img src = "thestrokes1.png" alt="" width="1500" height="100"></img>
-            <h3>The Strokes &rarr;</h3>
-            <p>Información y galería</p>
+          <a href="https://open.spotify.com/playlist/4qoiC1hBmUisU465DURPEc?si=8aieeKg6QE60JKtS0stz3w" className="card">
+            <h3>Spotify link: https://open.spotify.com/playlist/4qoiC1hBmUisU465DURPEc?si=8aieeKg6QE60JKtS0stz3w&rarr;</h3>
           </a>
-
           <a
-            href="/phoebe"
+            href="https://github.com/vercel/next.js/tree/master/examples"
             className="card"
           >
-         <a href="/phoebe" className="card"></a>
-            <img src = "/pb1.png" alt="" width="1500" height="100"></img>
-            <h3>Phoebe Bridgers &rarr;</h3>
-            <p>Información y galería</p>
-          </a>
-
-         <a
-            href="/vampireweekend"
-            className="card"
-          >  
-          <a href="/vampireweekend" className="card"></a>
-            <h3>Vampire Weekend &rarr;</h3>
-            <img src = "/vw1.png" alt="" width="1500" height="100"></img>
-            <p>
-              Información y galería
-            </p>
-          </a>
-
-          <a href="/macdemarco" className="card">
-            <img src = "/mdm1.png" alt="" width="1500" height="100"></img>
-            <h3>Mac Demarco &rarr;</h3>
-            <p>Información y galería</p>
-          </a>
-
-         <a href="/radiohead" className="card">
-            <img src = "rh1.png" alt="" width="1500" height="100"></img>
-            <h3>Radiohead &rarr;</h3>
-            <p>Información y galería</p>
-          </a>
-
-          <a
-            href="/videos"
-            className="card"
-          >
-         <a href="/videos" className="card"></a>
-            <img src = "/videos.png" alt="" width="1500" height="100"></img>
-            <h3>Videos &rarr;</h3>
-            <p>click para ver</p>
-          </a>
-
-          <a
-            href="/playlist"
-            className="card"
-          >
-            <h3>canciones favoritas 2021 &rarr;</h3>
-            <img src = "/spotify.png" alt="" width="1500" height="100"></img>
-            <p>
-              playlist
-            </p>
-          </a>
+           
+      
             
+          </a>
+
+          <a
+            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className="card"
+          >
+            <h3> &rarr;</h3>
+
+            <p>
+              
+            </p>La playlist consta de canciones diferentes y diferentes artistas que he escuchado este año
+          </a>
         </div>
       </main>
 
       <footer>
         <a
-          href=""
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -144,7 +104,7 @@ export default function Home() {
 
         .title a {
           color: #0070f3;
-          text-decoration: bold; italic;
+          text-decoration: none;
         }
 
         .title a:hover,
@@ -156,9 +116,7 @@ export default function Home() {
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 6rem;
-          color: #000080
-          font family: ['Merriweather', 'serif']
+          font-size: 4rem;
         }
 
         .title,
